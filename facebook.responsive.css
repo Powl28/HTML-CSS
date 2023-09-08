@@ -1,0 +1,45 @@
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+  .profile-container {
+    grid-template-columns: auto;
+  }
+  .profile-left {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .container.bg-img {
+    height: 180px;
+  }
+  .profile-img img {
+    margin-top: -50%;
+  }
+  .profile-right div {
+    padding: 0px 12px;
+    justify-content: space-between;
+  }
+  .profile-right button{
+    flex: content;
+  }
+  .tab-menu.container .menu.left{
+    padding: 12px;
+  }
+  .tab-menu.container .menu.left button{
+    display: none;
+}
+.tab-menu.container .menu.left button:nth-child(1)
+.tab-menu.container .menu.left button:nth-child(2)
+.tab-menu.container .menu.left button:nth-child(7){
+display: inline;}
+.tab-menu.container .menu-right{
+    padding: 12px;
+}
+.content{
+    width: 100%;
+    padding: 0px 12px;
+}
+
+  
+}
